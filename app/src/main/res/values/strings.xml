@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyCarFootprint</string>
+    <string name="station_name">Station Name</string>
+    <string name="Date">Date (yyyy-mm-dd)</string>
+    <string name="fuel_type">Fuel Type (Gasoline or Disel)</string>
+    <string name="amount">Amount in liters</string>
+    <string name="per_liter_price">Price per liter in dollars</string>
+    <string name="add_new_entry">Add New Entry</string>
+    <string name="fuel_cost">Fuel Cost</string>
+    <string name="carbon_footprint">Carbon Footprint</string>
+</resources>

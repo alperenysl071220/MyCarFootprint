@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    app:cardElevation="50dp"
+    app:cardBackgroundColor="@color/white"
+    android:id="@+id/cardView"
+    app:cardCornerRadius="20dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="17sp"
+            android:text="@string/station_name"
+            android:id="@+id/rec_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="17sp"
+            android:text="@string/Date"
+            android:id="@+id/rec_date"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="17sp"
+            android:text="@string/fuel_type"
+            android:id="@+id/rec_type"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="17sp"
+            android:text="@string/amount"
+            android:id="@+id/rec_amount"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="17sp"
+            android:text="@string/per_liter_price"
+            android:id="@+id/rec_price"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="17sp"
+            android:text="@string/fuel_cost"
+            android:id="@+id/rec_cost"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="17sp"
+            android:text="@string/carbon_footprint"
+            android:id="@+id/rec_carbon"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/delete"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@android:drawable/ic_menu_delete"/>
+
+</androidx.cardview.widget.CardView>
